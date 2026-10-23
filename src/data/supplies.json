@@ -1,0 +1,212 @@
+[
+  {
+    "name": "Nitrile Exam Gloves (Box of 100)",
+    "category": "PPE",
+    "imageUrl": "https://images.unsplash.com/photo-1583947215259-38e31be8751f?w=400",
+    "description": "Powder-free, latex-free nitrile gloves for medical examinations. Blue, size M.",
+    "price": 18.99
+  },
+  {
+    "name": "Disposable Surgical Face Masks (50 Pack)",
+    "category": "PPE",
+    "imageUrl": "https://images.unsplash.com/photo-1584634731339-252c581abfc5?w=400",
+    "description": "3-ply earloop masks with melt-blown filter layer. CE certified.",
+    "price": 12.50
+  },
+  {
+    "name": "Digital Infrared Thermometer",
+    "category": "Diagnostics",
+    "imageUrl": "https://images.unsplash.com/photo-1584362917165-526a968579e8?w=400",
+    "description": "Non-contact forehead thermometer with 1-second reading and fever alarm.",
+    "price": 29.99
+  },
+  {
+    "name": "Blood Pressure Monitor (Upper Arm)",
+    "category": "Diagnostics",
+    "imageUrl": "https://images.unsplash.com/photo-1579154204601-01588f351e67?w=400",
+    "description": "Automatic digital BP monitor with irregular heartbeat detection and 2-user memory.",
+    "price": 49.95
+  },
+  {
+    "name": "Pulse Oximeter (Fingertip)",
+    "category": "Diagnostics",
+    "imageUrl": "https://images.unsplash.com/photo-1585435557343-3b092031a831?w=400",
+    "description": "OLED display SpO2 and pulse rate monitor with auto power-off.",
+    "price": 24.99
+  },
+  {
+    "name": "Stethoscope (Dual Head)",
+    "category": "Diagnostics",
+    "imageUrl": "https://images.unsplash.com/photo-1584982751601-97dcc096659c?w=400",
+    "description": "Stainless steel chest piece with diaphragm and bell. 27-inch tubing.",
+    "price": 39.00
+  },
+  {
+    "name": "Sterile Gauze Pads (4x4, 25 Count)",
+    "category": "Wound Care",
+    "imageUrl": "https://images.unsplash.com/photo-1603398938378-e54eab446dde?w=400",
+    "description": "Individually wrapped sterile gauze sponges, 12-ply, for wound cleaning.",
+    "price": 8.75
+  },
+  {
+    "name": "Adhesive Bandages (Assorted, 100 Count)",
+    "category": "Wound Care",
+    "imageUrl": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=400",
+    "description": "Latex-free flexible fabric bandages in multiple sizes for minor cuts.",
+    "price": 6.49
+  },
+  {
+    "name": "Medical Tape (1 inch, 2 Rolls)",
+    "category": "Wound Care",
+    "imageUrl": "https://images.unsplash.com/photo-1583947581924-860bda6a26df?w=400",
+    "description": "Hypoallergenic paper tape for securing dressings and gauze.",
+    "price": 5.25
+  },
+  {
+    "name": "Hydrogen Peroxide 3% (16 oz)",
+    "category": "Wound Care",
+    "imageUrl": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+    "description": "First aid antiseptic for cleaning minor cuts and abrasions.",
+    "price": 3.99
+  },
+  {
+    "name": "Isopropyl Alcohol 70% (16 oz)",
+    "category": "Wound Care",
+    "imageUrl": "https://images.unsplash.com/photo-1585435557343-3b092031a831?w=400",
+    "description": "Rubbing alcohol for sterilizing instruments and skin preparation.",
+    "price": 4.50
+  },
+  {
+    "name": "Instant Cold Pack (6 Pack)",
+    "category": "Wound Care",
+    "imageUrl": "https://images.unsplash.com/photo-1603398938378-e54eab446dde?w=400",
+    "description": "Single-use cold compress for sprains and swelling. Squeeze to activate.",
+    "price": 11.99
+  },
+  {
+    "name": "Disposable Syringes 3ml (100 Pack)",
+    "category": "Injection Supplies",
+    "imageUrl": "https://images.unsplash.com/photo-1579154204601-01588f351e67?w=400",
+    "description": "Luer slip syringes with 23G needles, sterile, individually packed.",
+    "price": 22.50
+  },
+  {
+    "name": "Alcohol Prep Pads (200 Count)",
+    "category": "Injection Supplies",
+    "imageUrl": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+    "description": "70% isopropyl alcohol wipes for injection site preparation.",
+    "price": 7.99
+  },
+  {
+    "name": "Sharps Container (1 Quart)",
+    "category": "Injection Supplies",
+    "imageUrl": "https://images.unsplash.com/photo-1585435557343-3b092031a831?w=400",
+    "description": "FDA-approved puncture-resistant container for used needles and syringes.",
+    "price": 9.50
+  },
+  {
+    "name": "IV Catheter 22G (50 Pack)",
+    "category": "Injection Supplies",
+    "imageUrl": "https://images.unsplash.com/photo-1579154204601-01588f351e67?w=400",
+    "description": "Sterile intravenous catheter with injection port and safety mechanism.",
+    "price": 34.00
+  },
+  {
+    "name": "Surgical Scissors (Straight, 5.5 inch)",
+    "category": "Instruments",
+    "imageUrl": "https://images.unsplash.com/photo-1584982751601-97dcc096659c?w=400",
+    "description": "Stainless steel operating scissors for cutting dressings and sutures.",
+    "price": 14.75
+  },
+  {
+    "name": "Kelly Hemostat Forceps (5.5 inch)",
+    "category": "Instruments",
+    "imageUrl": "https://images.unsplash.com/photo-1584982751601-97dcc096659c?w=400",
+    "description": "Curved jaw hemostatic forceps for clamping vessels and holding tissue.",
+    "price": 12.99
+  },
+  {
+    "name": "Disposable Scalpel #10 (10 Pack)",
+    "category": "Instruments",
+    "imageUrl": "https://images.unsplash.com/photo-1579154204601-01588f351e67?w=400",
+    "description": "Sterile carbon steel blades with plastic handles, individually wrapped.",
+    "price": 15.50
+  },
+  {
+    "name": "Penlight (Reusable)",
+    "category": "Instruments",
+    "imageUrl": "https://images.unsplash.com/photo-1584362917165-526a968579e8?w=400",
+    "description": "Medical penlight for pupil assessment with pocket clip.",
+    "price": 7.25
+  },
+  {
+    "name": "Tourniquet (Quick Release)",
+    "category": "Emergency",
+    "imageUrl": "https://images.unsplash.com/photo-1603398938378-e54eab446dde?w=400",
+    "description": "Latex-free quick-release tourniquet for blood draws and IV access.",
+    "price": 6.99
+  },
+  {
+    "name": "CPR Face Shield Keychain",
+    "category": "Emergency",
+    "imageUrl": "https://images.unsplash.com/photo-1584634731339-252c581abfc5?w=400",
+    "description": "Compact one-way valve barrier for rescue breathing protection.",
+    "price": 5.49
+  },
+  {
+    "name": "Emergency Blanket (Mylar)",
+    "category": "Emergency",
+    "imageUrl": "https://images.unsplash.com/photo-1583947215259-38e31be8751f?w=400",
+    "description": "Heat-reflective foil blanket for hypothermia prevention.",
+    "price": 4.25
+  },
+  {
+    "name": "Elastic Bandage (4 inch, 2 Pack)",
+    "category": "Emergency",
+    "imageUrl": "https://images.unsplash.com/photo-1583947581924-860bda6a26df?w=400",
+    "description": "Self-closing compression wrap for sprains and swelling support.",
+    "price": 8.99
+  },
+  {
+    "name": "Hand Sanitizer Gel 70% (8 oz)",
+    "category": "Hygiene",
+    "imageUrl": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+    "description": "Alcohol-based sanitizer with pump dispenser and moisturizer.",
+    "price": 5.99
+  },
+  {
+    "name": "Antiseptic Wipes (Chlorhexidine, 50 Count)",
+    "category": "Hygiene",
+    "imageUrl": "https://images.unsplash.com/photo-1585435557343-3b092031a831?w=400",
+    "description": "Preoperative skin prep wipes with 2% chlorhexidine gluconate.",
+    "price": 10.50
+  },
+  {
+    "name": "Disposable Bed Pads (30x36, 10 Pack)",
+    "category": "Hygiene",
+    "imageUrl": "https://images.unsplash.com/photo-1583947215259-38e31be8751f?w=400",
+    "description": "Absorbent underpads with waterproof backing for surface protection.",
+    "price": 13.99
+  },
+  {
+    "name": "N95 Respirator Mask (10 Pack)",
+    "category": "PPE",
+    "imageUrl": "https://images.unsplash.com/photo-1584634731339-252c581abfc5?w=400",
+    "description": "NIOSH-approved N95 particulate respirator with adjustable nose clip.",
+    "price": 27.50
+  },
+  {
+    "name": "Face Shield (Reusable, 2 Pack)",
+    "category": "PPE",
+    "imageUrl": "https://images.unsplash.com/photo-1583947581924-860bda6a26df?w=400",
+    "description": "Full-face protective shield with anti-fog coating and adjustable headband.",
+    "price": 16.75
+  },
+  {
+    "name": "Medical Waste Bags (Red, 10 Pack)",
+    "category": "Hygiene",
+    "imageUrl": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+    "description": "Biohazard-labeled red bags for safe disposal of medical waste.",
+    "price": 9.25
+  }
+]
