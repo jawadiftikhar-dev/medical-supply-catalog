@@ -1,18 +1,18 @@
 import { useEffect, useMemo, useState } from 'react';
 import './App.css';
 import supplies from './data/supplies.json';
+import Modal from './Modal';
 
 function App() {
   const [search, setSearch] = useState('');
   const [category, setCategory] = useState('All');
+  const [selectedProduct, setSelectedProduct] = useState(null);
 
-  // Unique categories for the dropdown (computed once)
   const categories = useMemo(() => {
     const set = new Set(supplies.map((s) => s.category));
     return ['All', ...Array.from(set).sort()];
   }, []);
 
-  // Combined filter: search (case-insensitive) + category
   const filtered = useMemo(() => {
     const q = search.trim().toLowerCase();
     return supplies.filter((item) => {
@@ -21,6 +21,15 @@ function App() {
       return matchesSearch && matchesCategory;
     });
   }, [search, category]);
+
+  // Prevent background scroll while modal is open
+  useEffect(() => {
+    if (selectedProduct) {
+      const prev = document.body.style.overflow;
+      document.body.style.overflow = 'hidden';
+      return () => { document.body.style.overflow = prev; };
+    }
+  }, [selectedProduct]);
 
   return (
     <div className="app">
@@ -53,16 +62,24 @@ function App() {
       ) : (
         <section className="grid">
           {filtered.map((item) => (
-            <article className="card" key={item.name}>
+            <button
+              type="button"
+              className="card"
+              key={item.name}
+              onClick={() => setSelectedProduct(item)}
+              aria-label={`View details for ${item.name}`}
+            >
               <img src={item.imageUrl} alt={item.name} loading="lazy" />
               <div className="card-body">
                 <h2>{item.name}</h2>
                 <p className="price">${item.price.toFixed(2)}</p>
               </div>
-            </article>
+            </button>
           ))}
         </section>
       )}
+
+      <Modal product={selectedProduct} onClose={() => setSelectedProduct(null)} />
     </div>
   );
 }
