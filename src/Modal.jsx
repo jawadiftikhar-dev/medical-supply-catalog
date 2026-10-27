@@ -1,10 +1,9 @@
 import { useEffect, useRef } from 'react';
 
-function Modal({ product, onClose }) {
+function Modal({ product, onClose, isWishlisted, onToggleWishlist }) {
   const modalRef = useRef(null);
   const closeButtonRef = useRef(null);
 
-  // Focus the close button on open, restore focus on close, trap focus, handle ESC
   useEffect(() => {
     if (!product) return;
 
@@ -19,7 +18,6 @@ function Modal({ product, onClose }) {
       }
       if (e.key !== 'Tab') return;
 
-      // Focus trap
       const focusable = modalRef.current?.querySelectorAll(
         'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
       );
@@ -77,8 +75,12 @@ function Modal({ product, onClose }) {
           <p className="modal-category">{product.category}</p>
           <p id="modal-desc" className="modal-desc">{product.description}</p>
           <p className="modal-price">${product.price.toFixed(2)}</p>
-          <button className="wishlist-btn" onClick={() => alert(`Added "${product.name}" to wishlist`)}>
-            Add to wishlist
+          <button
+            className={`wishlist-btn${isWishlisted ? ' wishlist-btn--active' : ''}`}
+            onClick={() => onToggleWishlist(product.name)}
+            aria-pressed={isWishlisted}
+          >
+            {isWishlisted ? '♥ Remove from wishlist' : '♡ Add to wishlist'}
           </button>
         </div>
       </div>
