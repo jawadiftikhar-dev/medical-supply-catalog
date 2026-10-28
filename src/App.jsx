@@ -44,11 +44,6 @@ function App() {
     );
   };
 
-  const removeFromWishlist = (name, e) => {
-    e.stopPropagation(); // don't open the modal
-    setWishlist((prev) => prev.filter((n) => n !== name));
-  };
-
   return (
     <div className="app">
       <header className="app-header">
@@ -101,10 +96,12 @@ function App() {
                 <button
                   type="button"
                   className={`heart-btn${saved ? ' heart-btn--active' : ''}`}
-                  onClick={(e) => removeFromWishlist(item.name, e)}
-                  aria-label={saved ? `Remove ${item.name} from wishlist` : `${item.name} is not in wishlist`}
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    toggleWishlist(item.name);
+                  }}
+                  aria-label={saved ? `Remove ${item.name} from wishlist` : `Add ${item.name} to wishlist`}
                   aria-pressed={saved}
-                  disabled={!saved}
                 >
                   {saved ? '♥' : '♡'}
                 </button>
